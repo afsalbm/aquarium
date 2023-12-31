@@ -6,14 +6,16 @@
 #include <Servo.h>
 
 
-const char* ssid = "Wisdom_4G";
-const char* password = "Afsal@123";
-const char *GScriptId = "AKfycby7EjhBEA6Y00ph9fkOKTqVDBSzHc2M-x35Q27hfCMKEphkAGsY-KeMhYAzdBeTLVTG9g";
+const char* ssid = "";
+const char* password = "";
+const char *GScriptId = "";
 
-const char* twilioAccountSID = "AC2486872a586bfda094dbcc5bcb85a2e4";
-const char* twilioAuthToken = "6401381dd1ac057c0f00ce68fcffc502";
-const char* twilioPhoneNumber = "+919809759693";
-const char* targetWhatsAppNumber = "+14155238886";
+const char* twilioAccountSID = "";
+const char* twilioAuthToken = "";
+const char* twilioPhoneNumber = "";
+const char* targetWhatsAppNumber = "";
+
+
 
 const long utcOffsetInSeconds = 19800;
 WiFiUDP ntpUDP;
